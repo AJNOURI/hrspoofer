@@ -1,6 +1,5 @@
 # About this Repo
 
-This is a container based on [docker-library/python2.7](https://github.com/docker-library/python).
 
 The main python script hrspoofer.py (http request spoofer), uses httplib to generate http requests with spoofed source ip address to simulate different client.  
 The list of spoofed source IPs are simply secondary ip addresses assigned to the main container interface.
